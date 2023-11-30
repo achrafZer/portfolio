@@ -10,16 +10,19 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'My portfolio',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'CV', link: '/cv' },
+          { text: 'Contact', link: '/contact' },
+          { text: 'About me', link: '/about-me' },
+          { text: 'Projects', link: '/projects' },
+          { text: 'Professional Experience & Education', link: '/experience-education' },
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/achrafZer' }
     ]
   }
 })
